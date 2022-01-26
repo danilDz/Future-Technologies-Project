@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Oswald";
+    src: url('fonts/oswald/Oswald-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: 'SansitaSwashed';
+    src: url('fonts/sansita/SansitaSwashed-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: 'FredokaOne';
+    src: url('fonts/fredoka/FredokaOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'LuckiestGuy';
+    src: url('fonts/luckiest/LuckiestGuy-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'CarterOne';
+    src: url('fonts/carter/CarterOne-Regular.ttf');
+}

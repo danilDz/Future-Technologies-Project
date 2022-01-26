@@ -1,0 +1,415 @@
+@import url(adaptiveContacts.css);
+
+body{
+    background-image: url(../images/contacts.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contactsSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsDiv{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    box-shadow: 0px 0px 15px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactsDivTitle{
+    margin-top: 100px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: brown; */
+}
+
+hr{
+    width: 90%;
+    height: 3px;
+    color: white;
+    background-color: white;
+}
+
+.contactsTitle{
+    font-family: 'CarterOne';
+    font-size: 50px;
+    color: white;
+}
+
+.contactsDiv2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+}
+
+.contactsDiv2Div1{
+    width: 100%;
+    height: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contactsInfo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* background-color: green; */
+}
+
+.contactsSocialDiv{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fa-instagram, .fa-telegram, .fa-facebook, .fa-vk{
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    /* margin: 20px; */
+}
+
+.fa-instagram:hover, .fa-telegram:hover, .fa-facebook:hover, .fa-vk:hover{
+    transform: scale(1.3);
+    /* color: #000000; */
+}
+
+.contactsMap{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* background-color: hotpink; */
+}
+
+.contactsDiv2Div2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* background-color: gray; */
+}
+
+.contactsFooter1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsFooter{
+    width: 80%;
+    height: 100%;
+    background-color: #000000e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.contactsInfoP{
+    font-size: 34px;
+    line-height: 125%;
+    color: white;
+    font-family: 'CarterOne';
+    padding: 30px;
+}
+
+.contactsButton{
+    width: 30%;
+    height: 45%;
+    background-color:black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'FredokaOne';
+    font-size: 30px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.contactsButton:hover{
+    /* color: black; */
+    background-color: #470048;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.contactsPopup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.739);
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow-y:auto;
+    overflow-x: hidden;
+    display: flex;
+    padding-top: 8%;
+    justify-content: center;
+    align-items:center;
+    display: none;
+}
+
+.oY{
+    overflow-y: hidden;
+}
+
+.contactsPopupBody{
+    overflow-y:visible;
+    overflow-x: hidden;
+    margin:auto;
+    width: 25%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 3%;
+    box-shadow: 0px 0px 20px 8px black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.contactsPopupClose{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.contactsPopupClose:hover{
+    color: rgb(88, 1, 129);
+}
+
+.contactsPopupMainDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.contactsPopupTitleDiv{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsPopupForm{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactsPopupButton{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsPopupSend{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: rgba(255, 255, 255, 0.774);
+    box-shadow: 0px 0px 10px 4px black;
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'CarterOne';
+    transition: all 0.5s;
+}
+
+.contactsPopupSend:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.contactsPopupTitle{
+    font-size: 40px;
+    font-family: 'CarterOne';
+    color: black;
+}
+
+.contactsPopupFormDiv1{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactsPopupFormDiv2{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactsPopupFormDiv3{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactsPopupFormDiv4{
+    width: 100%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactsPopupFormP{
+    font-size: 25px;
+    font-family: 'CarterOne';
+    margin-bottom: 10px;
+}
+
+#name{
+    width: 80%;
+    /* height: 37%; */
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald';
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 1px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+
+#surname{
+    width: 80%;
+    /* height: 40%; */
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald';
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 1px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+
+#email{
+    width: 80%;
+    /* height: 40%; */
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald';
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 1px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+
+#review{
+    width: 80%;
+    height: 60%;
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald';
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 1px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    resize: none;
+}
+
+.contactsPopupThank{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.739);
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow-y:auto;
+    overflow-x: hidden;
+    display: flex;
+    padding-top: 20%;
+    justify-content: center;
+    align-items:center;
+    display: none;
+}
+
+.contactsPopupThankDiv{
+    overflow-y:visible;
+    overflow-x: hidden;
+    margin:auto;
+    width: 30%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 10%;
+    box-shadow: 0px 0px 20px 8px black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.contactsPopupThankP{
+    font-size: 40px;
+    font-family: 'CarterOne';
+    color: black;
+}

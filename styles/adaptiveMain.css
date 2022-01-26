@@ -1,0 +1,859 @@
+@media only screen and (max-width:3000px) and (max-height:2500px) {
+    body {
+        background-size: cover;
+    }
+    a.buttonUp{
+        right: 40px;
+        bottom:40px;
+        width: 120px;
+        height: 120px;
+        border-radius:60px;
+        font-size: 50px;
+        padding: 32px;
+    }
+    div.menuButton{
+        width: 80px;
+        height: 80px;
+        border-radius:40px;
+        left: 120px;
+        top:35px;
+        font-size: 50px;
+    }
+    a.navA{
+        font-size: 70px;
+    }
+    header.header{
+        height: 150px;
+    }
+    img.logo{
+        width: 105px;
+        height: 105px;
+    }
+    p.headerP{
+        font-size: 45px;
+    }
+    section.section1{
+        height: 100vh;
+    }
+    p.section1P{
+        font-size: 180px;
+    }
+    section.section2{
+        height: 100vh;
+    }
+    img.section2IMG{
+        height:100%;
+        width: auto;
+    }
+    div.section2DivImg{
+        display: flex;
+        justify-content: center;
+    }
+    div.section2PDiv{
+        padding: 50px;
+        font-size: 300%;
+    }
+    div.section2Div1{
+        height: 33%;
+        padding-top: 50px;
+    }
+    div.section2Div2{
+        height: 33%;
+    }
+    div.section2Div3{
+        height: 33%;
+    }
+    footer.Footer{
+        height: 90px;
+    }
+    p.footer{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-height:1600px) and (max-width:2560px){
+    div.section2PDiv{
+        font-size: 250%;
+    }
+    p.section1P{
+        font-size: 150px;
+    }
+    a.navA{
+        font-size: 60px;
+    }
+}
+@media only screen and (max-height:1300px) and (max-width:2560px){
+    div.section2PDiv{
+        font-size: 200%;
+    }
+    p.section1P{
+        font-size: 150px;
+    }
+    a.navA{
+        font-size: 55px;
+    }
+    img.section2IMG {
+        height: 110%;
+        width: auto;
+    }
+}
+@media only screen and (max-height:1536px) and (max-width:2048px){
+    div.section2PDiv{
+        font-size: 200%;
+    }
+    p.section1P{
+        font-size: 130px;
+    }
+    a.navA{
+        font-size: 50px;
+    }
+    img.section2IMG {
+        height: 110%;
+        width: auto;
+    }
+}
+@media only screen and (max-height:1080px) and (max-width:2048px){
+    div.section2PDiv{
+        font-size: 180%;
+    }
+    p.section1P{
+        font-size: 120px;
+    }
+    a.navA{
+        font-size: 45px;
+    }
+    img.section2IMG {
+        height: 110%;
+        width: auto;
+    }
+    a.buttonUp{
+        right: 35px;
+        bottom:35px;
+        width: 100px;
+        height: 100px;
+        border-radius:50px;
+        font-size: 50px;
+        padding: 25px;
+    }
+    div.menuButton{
+        width: 70px;
+        height: 70px;
+        border-radius:35px;
+        left: 110px;
+        top:25px;
+        font-size: 50px;
+    }
+    header.header{
+        height: 120px;
+    }
+    img.logo{
+        width: 80px;
+        height: 80px;
+    }
+    p.headerP{
+        font-size: 35px;
+    }
+    footer.Footer{
+        height: 80px;
+    }
+    p.footer{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-height:1200px) and (max-width:1920px){
+    div.section2PDiv{
+        font-size: 180%;
+    }
+    p.section1P{
+        font-size: 120px;
+    }
+    a.navA{
+        font-size: 45px;
+    }
+    img.section2IMG {
+        height: 110%;
+        width: auto;
+    }
+    a.buttonUp{
+        right: 35px;
+        bottom:35px;
+        width: 100px;
+        height: 100px;
+        border-radius:50px;
+        font-size: 50px;
+        padding: 25px;
+    }
+    div.menuButton{
+        width: 70px;
+        height: 70px;
+        border-radius:35px;
+        left: 110px;
+        top:25px;
+        font-size: 50px;
+    }
+    header.header{
+        height: 120px;
+    }
+    img.logo{
+        width: 80px;
+        height: 80px;
+    }
+    p.headerP{
+        font-size: 35px;
+    }
+    footer.Footer{
+        height: 80px;
+    }
+    p.footer{
+        font-size: 32px;
+    }
+}
+@media only screen and (max-height:1080px) and (max-width:1920px){
+    section.section2{
+        height: 130vh;
+    }
+    div.section2PDiv{
+        font-size: 180%;
+        padding:40px;
+    }
+    p.section1P{
+        font-size: 110px;
+    }
+    a.navA{
+        font-size: 45px;
+    }
+    img.section2IMG {
+        height: 120%;
+        width: auto;
+    }
+    img.section2IMG3{
+        height: 140%;
+    }
+    div.section2DivImg3{
+        align-items:center;
+    }
+    div.section2Div1{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    a.buttonUp{
+        right: 30px;
+        bottom:30px;
+        width: 70px;
+        height: 70px;
+        border-radius:35px;
+        font-size: 30px;
+        padding: 20px;
+    }
+    div.menuButton{
+        width: 50px;
+        height:50px;
+        border-radius:25px;
+        left: 80px;
+        top:20px;
+        font-size: 30px;
+    }
+    header.header{
+        height: 95px;
+    }
+    img.logo{
+        width: 70px;
+        height: 70px;
+    }
+    p.headerP{
+        font-size: 30px;
+    }
+    footer.Footer{
+        height: 60px;
+    }
+    p.footer{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-height:1200px) and (max-width:1600px){
+    div.section2PDiv{
+        font-size: 170%;
+        padding:50px;
+    }
+    p.section1P{
+        font-size: 110px;
+    }
+    a.buttonUp{
+        right: 35px;
+        bottom:35px;
+        width: 90px;
+        height: 90px;
+        border-radius:45px;
+        font-size: 45px;
+        padding: 22px;
+    }
+}
+@media only screen and (max-height:1050px) and (max-width:1680px){
+    div.section2PDiv{
+        font-size: 160%;
+        padding:50px;
+    }
+    p.section1P{
+        font-size: 105px;
+    }
+    a.buttonUp{
+        right: 35px;
+        bottom:35px;
+        width: 90px;
+        height: 90px;
+        border-radius:45px;
+        font-size: 45px;
+        padding: 22px;
+    }
+    header.header{
+        height: 100px;
+    }
+    div.menuButton{
+        width: 60px;
+        height: 60px;
+        border-radius:30px;
+        left: 95px;
+        top:20px;
+        font-size: 50px;
+    }
+    img.logo{
+        width: 70px;
+        height: 70px;
+    }
+    p.headerP{
+        font-size: 32px;
+    }
+    footer.Footer{
+        height: 70px;
+    }
+    p.footer{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-height:1050px) and (max-width:1400px){
+    div.section2PDiv{
+        font-size: 150%;
+        padding:50px;
+    }
+    p.section1P{
+        font-size: 105px;
+    }
+    a.buttonUp{
+        right: 30px;
+        bottom:30px;
+        width: 80px;
+        height: 80px;
+        border-radius:40px;
+        font-size: 40px;
+        padding: 20px;
+    }
+    footer.Footer{
+        height: 60px;
+    }
+    p.footer{
+        font-size: 25px;
+    }
+    a.navA{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-height:1024px) and (max-width:1280px){
+    footer.Footer{
+        padding-top:10px;
+        height: 50px;
+    }
+    p.section1P{
+        font-size: 95px;
+    }
+    a.navA{
+        font-size: 35px;
+    }
+    div.section2PDiv{
+        font-size: 140%;
+        padding:40px;
+    }
+    img.section2IMG {
+        height: 110%;
+        width: auto;
+    }
+    img.section2IMG3{
+        height: 130%;
+    }
+    div.section2DivImg3{
+        align-items:flex-start;
+    }
+}
+@media only screen and (max-height:960px) and (max-width:1280px){
+    div.section2PDiv{
+        font-size: 140%;
+        padding:30px;
+    }
+    img.section2IMG {
+        height: 120%;
+        width: auto;
+    }
+    img.section2IMG3{
+        height: 140%;
+    }
+    div.section2DivImg3{
+        align-items:flex-start;
+    }
+}
+@media only screen and (max-height:854px) and (max-width:1280px){
+    div.section2PDiv{
+        font-size: 130%;
+        padding:25px;
+    }
+    img.section2IMG {
+        height: 130%;
+        width: auto;
+    }
+    img.section2IMG3{
+        height: 150%;
+    }
+    div.section2DivImg3{
+        align-items:flex-start;
+    }
+}
+@media only screen and (max-height:800px) and (max-width:1280px){
+    div.section2PDiv{
+        font-size: 130%;
+        padding:20px;
+    }
+    img.section2IMG {
+        height: 140%;
+        width: auto;
+    }
+    img.section2IMG3{
+        height: 160%;
+    }
+    div.section2DivImg3{
+        align-items:flex-start;
+    }
+    footer.Footer{
+        padding-top:8px;
+        height: 40px;
+    }
+    p.footer{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-height:768px) and (max-width:1280px){
+    p.section1P{
+        font-size: 85px;
+    }
+    img.section2IMG3{
+        height: 180%;
+    }
+    a.buttonUp{
+        right: 25px;
+        bottom:25px;
+        width: 70px;
+        height: 70px;
+        border-radius:35px;
+        font-size: 35px;
+        padding: 17px;
+    }
+    header.header{
+        height: 80px;
+    }
+    div.menuButton{
+        width: 50px;
+        height: 50px;
+        border-radius:25px;
+        left: 75px;
+        top:15px;
+        font-size: 50px;
+    }
+    img.logo{
+        width: 55px;
+        height: 55px;
+    }
+    p.headerP{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-height:720px) and (max-width:1280px){
+    div.section2PDiv{
+        font-size: 130%;
+        padding-top:5px;
+    }
+}
+@media only screen and (max-height:960px) and (max-width:1440px){
+    div.section2PDiv{
+        font-size: 140%;
+        padding-top:10px;
+    }
+    img.section2IMG3{
+        height: 150%;
+    }
+    div.section2DivImg3{
+        align-items:center;
+    }
+    footer.Footer{
+        padding-top:12px;
+        height: 50px;
+    }
+    p.footer{
+        font-size: 22px;
+    }
+    a.buttonUp{
+        right: 25px;
+        bottom:25px;
+        width: 70px;
+        height: 70px;
+        border-radius:35px;
+        font-size: 35px;
+        padding: 17px;
+    }
+    a.navA{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-height:900px) and (max-width:1440px){
+    p.section1P{
+        font-size: 100px;
+    }
+}
+@media only screen and (max-height:768px) and (max-width:1366px){
+    p.section1P{
+        font-size: 90px;
+    }
+    div.section2PDiv{
+        font-size: 130%;
+        padding-top:0px;
+    }
+    img.section2IMG{
+        height: 130%;
+    }
+    img.section2IMG3{
+        height: 180%;
+    }
+    div.section2DivImg3{
+        align-items:center;
+    }
+    footer.Footer{
+        padding-top:10px;
+        height: 40px;
+    }
+    p.footer{
+        font-size: 18px;
+    }
+    a.navA{
+        font-size: 35px;
+    }
+    header.header{
+        height: 80px;
+    }
+    div.menuButton{
+        width: 50px;
+        height: 50px;
+        border-radius:25px;
+        left: 75px;
+        top:15px;
+        font-size: 50px;
+    }
+    img.logo{
+        width: 55px;
+        height: 55px;
+    }
+    p.headerP{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-height:768px) and (max-width:1152px){
+    p.section1P{
+        font-size: 85px;
+    }
+    a.navA{
+        font-size: 30px;
+    }
+    a.buttonUp{
+        right: 25px;
+        bottom:25px;
+        width: 60px;
+        height: 60px;
+        border-radius:30px;
+        font-size: 30px;
+        padding: 15px;
+    }
+}
+@media only screen and (max-height:768px) and (max-width:1024px){
+    p.section1P{
+        font-size: 70px;
+    }
+    div.section2PDiv{
+        font-size: 110%;
+        padding-top:-5px;
+    }
+    img.section2IMG{
+        height: 130%;
+    }
+    img.section2IMG3{
+        height: 180%;
+    }
+    div.section2DivImg3{
+        align-items:center;
+    }
+}
+@media only screen and (max-height:600px) and (max-width:1024px){
+    section.section2{
+        height: 120vh;
+    }
+    div.section2PDiv{
+        font-size: 100%;
+        padding-top:0px;
+    }
+    div.section2PDiv1{
+        padding-top:20px;
+    }
+    div.section2PDiv2{
+        padding-top:10px;
+    }
+    img.section2IMG{
+        height: 130%;
+    }
+    img.section2IMG3{
+        height: 200%;
+    }
+    a.buttonUp{
+        right: 20px;
+        bottom:20px;
+        width: 50px;
+        height: 50px;
+        border-radius:25px;
+        font-size: 25px;
+        padding: 12px;
+    }
+    a.navA{
+        font-size: 25px;
+    }
+    header.header{
+        height: 60px;
+    }
+    div.menuButton{
+        width: 40px;
+        height: 40px;
+        border-radius:20px;
+        left: 60px;
+        top:10px;
+        font-size: 30px;
+    }
+    img.logo{
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    p.headerP{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-height:480px) and (max-width:854px){
+    section.section2{
+        height: 150vh;
+    }
+    p.section1P{
+        font-size: 60px;
+    }
+    div.section2PDiv3{
+        padding-top: -10px;
+    }
+    a.navA{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-height:600px) and (max-width:800px){
+    p.section1P{
+        font-size: 60px;
+    }
+    a.buttonUp{
+        right: 15px;
+        bottom:15px;
+    }
+}
+@media only screen and (max-height:480px) and (max-width:800px){
+    p.section1P{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-height:576px) and (max-width:768px){
+    div.section2PDiv{
+        font-size: 100%;
+        padding:0px;
+    }
+    a.navA{
+        font-size: 20px;
+    }
+    p.section1P{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-height:480px) and (max-width:750px){
+    img.section2IMG{
+        height: 70%;
+    }
+    img.section2IMG3{
+        height: 70%;
+    }
+    div.section2PDiv{
+        font-size: 90%;
+    }
+    div.section2Div1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.section2Div2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.section2Div3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.section2PDiv{
+        padding-top: 50px;
+    }
+    footer.Footer{
+        padding-top:7px;
+        height: 30px;
+    }
+    p.footer{
+        font-size: 14px;
+    }
+    a.buttonUp{
+        right: 15px;
+        bottom:15px;
+        width: 40px;
+        height: 40px;
+        border-radius:20px;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-height:480px) and (max-width:640px){
+    section.section2{
+        height: 130vh;
+    }
+    img.section2IMG{
+        height: 60%;
+    }
+    div.section2PDiv{
+        font-size: 80%;
+    }
+    p.section1P{
+        font-size: 40px;
+    }
+    div.section2Div1{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    div.section2Div2{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    div.section2Div3{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+@media only screen and (max-height:240px) and (max-width:320px){
+    p.section1P{
+        font-size: 20px;
+    }
+    a.navA{
+        font-size: 10px;
+    }
+    div.divNav{
+        box-shadow: 0px 0px 10px 3px black;
+    }
+    header.header{
+        height: 30px;
+        box-shadow: 0 0 10px 5px black;
+    }
+    i.menuI{
+        opacity: 1;
+        font-size: 8px;
+        color:black;
+    }
+    div.menuButton{
+        width: 20px;
+        height: 20px;
+        border-radius:10px;
+        left: 25px;
+        top:5px;
+        font-size: 15px;
+    }
+    span.buttonSpan{
+        opacity: 0;
+    }
+    img.logo{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    p.headerP{
+        font-size: 10px;
+        margin-right: 30px;
+    }
+    section.section2{
+        height: 250vh;
+        box-shadow: 0px 0px 5px 5px black;
+    }
+    img.section2IMG{
+        height: 150%;
+    }
+    div.section2P{
+        width: 100%;
+        height: 50%;
+    }
+    div.section2Div1{
+        margin-top: 10px;
+        flex-direction: column-reverse;
+    }
+    div.section2PDiv{
+        width: 100%;
+        height: 50%;
+        padding: 20px;
+        font-size: 55%;
+    }
+    div.section2PDiv3{
+        font-size: 60%;
+    }
+    div.section2DivImg{
+        padding: 20px;
+        width: 100%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    div.section2Div2{
+        padding: 0px;
+        flex-direction: column;
+    }
+    div.section2Div3{
+        padding: 0px;
+        flex-direction: column-reverse;
+    }
+    footer.Footer{
+        padding-top:5px;
+        height: 20px;
+    }
+    p.footer{
+        font-size: 10px;
+    }
+    a.buttonUp{
+        right: 15px;
+        bottom:15px;
+        width: 20px;
+        height: 20px;
+        border-radius:10px;
+        font-size: 10px;
+        padding: 4px;
+    }
+}
+@media only screen and (max-height:200px) and (max-width:320px){
+    div.section2PDiv{
+        font-size: 45%;
+    }
+    img.section2IMG{
+        height: 200%;
+    }
+}
